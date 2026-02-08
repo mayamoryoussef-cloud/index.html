@@ -5,37 +5,39 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Judibug",
+    valentineName: "Jade",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine?",
+    pageTitle: "Will You Be My Valentine? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', 💘'💓'],  // Heart emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-          text: "Are you my girlfriend Judith Danino?",
-        yesBtn: "Yes", // Yes button text
-        noBtn: "No", // No button text
-        secretAnswer: "No im ur wife 😁" // Hidden message
+            text: "Are you my girlfriend Judith Danino?",                                    // First interaction
+            yesBtn: "Yes",                                             // Text for "Yes" button
+            noBtn: "No",                                               // Text for "No" button
+            secretAnswer: "actually im ur wife 😁"           // Secret hover message
         },
-        third: {
-            text: "Will you be my Valentine ", // The big question!
+        second: {
+            text: "Will you be my Valentine?", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
+        }
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay!",
-        emojis: "💝💋❤️💕"  // These will bounce around
+        title: "Yay!💝💖💝💓",
+        emojis: "💖🤗💝💋❤️💕"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -62,7 +64,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/ddc5rfylc/video/upload/v1770525889/The_Cranberries_-_Linger_Official_Music_Video_4_s8aae0.mp3", // Music streaming URL
+        musicUrl:"https://res.cloudinary.com/ddc5rfylc/video/upload/v1770525889/The_Cranberries_-_Linger_Official_Music_Video_4_s8aae0.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
@@ -70,4 +72,5 @@ const CONFIG = {
 };
 
 // Don't modify anything below this line unless you know what you're doing
+window.VALENTINE_CONFIG = CONFIG; 
 window.VALENTINE_CONFIG = CONFIG; 
