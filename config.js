@@ -21,16 +21,15 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-          text: "Are you my girlfriend Judith Danino?", // Fixed typo: removed extra &
-yesBtn: "Yes", // Yes button text
-noBtn: "No", // No button text
-secretAnswer: "No im ur wife 😁" // Hidden message
+          text: "Are you my girlfriend Judith Danino?",
+        yesBtn: "Yes", // Yes button text
+        noBtn: "No", // No button text
+        secretAnswer: "No im ur wife 😁" // Hidden message
         },
         third: {
             text: "Will you be my Valentine ", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
-        }
     },
 
     // Messages that appear after they say "Yes!"
