@@ -23,7 +23,7 @@ const CONFIG = {
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "actually im ur wife 😁"           // Secret hover message
         },
-        second: {
+        third: {
             text: "Will you be my Valentine?", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
